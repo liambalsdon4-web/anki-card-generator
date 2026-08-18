@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data / secrets / renders
+data/
+*.db
+.env
+client_secret*.json
+token.json
+
+# Artifacts
+err.txt
+out.txt
+*.log
+*.err
+proc_id.txt
+server.log
+server.err
+
+# OS
+.DS_Store
+Thumbs.db

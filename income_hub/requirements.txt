@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+aiosqlite
+httpx
+pydantic-settings
+pywebview
+# AI generation (Gemini) — lazy imported
+google-generativeai
+# Faceless YouTube pipeline
+edge-tts
+Pillow
+imageio-ffmpeg
+# YouTube upload (optional; only needed when you wire up OAuth)
+google-api-python-client
+google-auth-oauthlib

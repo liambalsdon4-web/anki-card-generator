@@ -1,6 +1,13 @@
+# Local Claude Code settings (machine-specific)
+.claude/
+
 # API keys / secrets
 .env
 *.env
+
+# Node / build output
+node_modules/
+dist/
 
 # Python
 __pycache__/
